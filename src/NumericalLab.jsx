@@ -30,7 +30,7 @@ export default function NumericalLab() {
           };
 
       const response = await fetch(
-        `http://127.0.0.1:5001/api/${endpoint}`,
+        `https://surplus2shelter-5vze.onrender.com/api/${endpoint}`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
